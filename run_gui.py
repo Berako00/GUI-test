@@ -5,13 +5,13 @@ from tkinter import messagebox
 
 # === Configuration ===
 # Replace this with your GitHub repository URL.
-GITHUB_REPO_URL = "https://github.com/username/repo.git"
+GITHUB_REPO_URL = "https://github.com/TomSchimansky/CustomTkinter.git"
 
 # Destination folder: here we place it on the Desktop.
 LOCAL_DIR = os.path.join(os.path.expanduser("~"), "Desktop", "repo")
 
 # The main script in the repository that should be executed.
-MAIN_SCRIPT = "main.py"  # Adjust if your entry point is named differently.
+MAIN_SCRIPT = "/examples/complex_example.py"  # Adjust if your entry point is named differently.
 
 # === Function Definitions ===
 def clone_repo():
